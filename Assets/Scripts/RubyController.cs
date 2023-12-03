@@ -13,9 +13,14 @@ public class RubyController : MonoBehaviour
     public float timeInvincible = 2.0f;
     public GameObject projectilePrefab;
 
+<<<<<<< HEAD
     public AudioClip Swanging;
     public AudioClip rubyHit;
     public AudioClip croak;
+=======
+    public AudioClip gearThrow;
+    public AudioClip rubyHit;
+>>>>>>> 1d8b9bcaba5d3bc6de60a56eb652b8fb9f0b1c8b
 
     int currentHealth;
     public int health { get { return currentHealth; } }
@@ -33,8 +38,13 @@ public class RubyController : MonoBehaviour
     Rigidbody2D rigidbody2d;
     float horizontal;
     float vertical;
+<<<<<<< HEAD
     public Animator animator;
     public Vector2 lookDirection = new Vector2(1,0);
+=======
+    Animator animator;
+    Vector2 lookDirection = new Vector2(1,0);
+>>>>>>> 1d8b9bcaba5d3bc6de60a56eb652b8fb9f0b1c8b
     public ParticleSystem hitEffect;
     public ParticleSystem healthEffect;
 
@@ -95,7 +105,10 @@ public class RubyController : MonoBehaviour
                 if (character != null)
                 {
                     character.DisplayDialog();
+<<<<<<< HEAD
                     PlaySound(croak);
+=======
+>>>>>>> 1d8b9bcaba5d3bc6de60a56eb652b8fb9f0b1c8b
                 }
             }
         }
@@ -178,6 +191,10 @@ public class RubyController : MonoBehaviour
 
         animator.SetTrigger("Launch");
 
+<<<<<<< HEAD
         PlaySound(gearThrow);*/
+=======
+        PlaySound(gearThrow);
+>>>>>>> 1d8b9bcaba5d3bc6de60a56eb652b8fb9f0b1c8b
     }
 }
