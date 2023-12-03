@@ -8,12 +8,17 @@ public class EnemyController : MonoBehaviour
     public bool vertical;
     public float changeTime = 3.0f;
 
+    public AudioClip enemyHit;
+    AudioSource audioSource;
+
     Rigidbody2D rigidbody2D;
     float timer;
     int direction = 1;
     Animator animator;
     bool broken = true;
+    private RubyController rubyController;
     public ParticleSystem smokeEffect;
+    public ParticleSystem cogs;
 
     // Start is called before the first frame update
     void Start()
@@ -21,6 +26,25 @@ public class EnemyController : MonoBehaviour
         rigidbody2D = GetComponent<Rigidbody2D>();
         timer = changeTime;
         animator = GetComponent<Animator>();
+        audioSource = GetComponent<AudioSource>();
+
+        GameObject rubyControllerObject = GameObject.FindWithTag("RubyController"); //this line of code finds the RubyController script by looking for a "RubyController" tag on Ruby
+
+        if (rubyControllerObject != null)
+        {
+            rubyController = rubyControllerObject.GetComponent<RubyController>(); //and this line of code finds the rubyController and then stores it in a variable
+            print ("Found the RubyConroller Script!");
+        }
+
+        if (rubyController == null)
+        {
+            print ("Cannot find GameController Script!");
+        }
+    }
+
+    public void PlaySound(AudioClip clip)
+    {
+        audioSource.PlayOneShot(clip);
     }
 
     void Update()
@@ -65,7 +89,19 @@ public class EnemyController : MonoBehaviour
         rigidbody2D.MovePosition(position);
     }
 
+    /*
     void OnCollisionEnter2D(Collision2D other)
+    {
+        RubyController player = other.gameObject.GetComponent<RubyController>();
+
+        if (player != null)
+        {
+            player.ChangeHealth(-1);
+        }
+    }
+    */
+
+    void OnParticleCollision(Collision2D other)
     {
         RubyController player = other.gameObject.GetComponent<RubyController>();
 
@@ -80,5 +116,11 @@ public class EnemyController : MonoBehaviour
         broken = false;
         rigidbody2D.simulated = false;
         smokeEffect.Stop();
+        PlaySound(enemyHit);
+
+        if (rubyController != null)
+        {
+            rubyController.changeScore(1);
+        }
     }
 }
