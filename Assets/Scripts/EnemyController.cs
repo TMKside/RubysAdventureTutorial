@@ -26,10 +26,7 @@ public class EnemyController : MonoBehaviour
         rigidbody2D = GetComponent<Rigidbody2D>();
         timer = changeTime;
         animator = GetComponent<Animator>();
-<<<<<<< HEAD
         audioSource = GetComponent<AudioSource>();
-=======
->>>>>>> 1d8b9bcaba5d3bc6de60a56eb652b8fb9f0b1c8b
 
         GameObject rubyControllerObject = GameObject.FindWithTag("RubyController"); //this line of code finds the RubyController script by looking for a "RubyController" tag on Ruby
 
@@ -43,14 +40,11 @@ public class EnemyController : MonoBehaviour
         {
             print ("Cannot find GameController Script!");
         }
-<<<<<<< HEAD
     }
 
     public void PlaySound(AudioClip clip)
     {
         audioSource.PlayOneShot(clip);
-=======
->>>>>>> 1d8b9bcaba5d3bc6de60a56eb652b8fb9f0b1c8b
     }
 
     void Update()
@@ -122,10 +116,7 @@ public class EnemyController : MonoBehaviour
         broken = false;
         rigidbody2D.simulated = false;
         smokeEffect.Stop();
-<<<<<<< HEAD
         PlaySound(enemyHit);
-=======
->>>>>>> 1d8b9bcaba5d3bc6de60a56eb652b8fb9f0b1c8b
 
         if (rubyController != null)
         {

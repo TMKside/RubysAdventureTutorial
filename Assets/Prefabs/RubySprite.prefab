@@ -36,10 +36,7 @@ Transform:
   m_Children:
   - {fileID: 1170935968549319834}
   - {fileID: 9093613663539166584}
-<<<<<<< HEAD
   - {fileID: 8482410772685384356}
-=======
->>>>>>> 1d8b9bcaba5d3bc6de60a56eb652b8fb9f0b1c8b
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -111,7 +108,6 @@ MonoBehaviour:
   maxHealth: 5
   timeInvincible: 2
   projectilePrefab: {fileID: 3508335471232719017, guid: 2ec4082b96b405b46a1e7ee7fe1c9080, type: 3}
-<<<<<<< HEAD
   Swanging: {fileID: 8300000, guid: 49f50de79a5892e44a666bb460f7308d, type: 3}
   rubyHit: {fileID: 8300000, guid: 9b1bb1f450b7d444fa4a8019d13519a7, type: 3}
   croak: {fileID: 8300000, guid: 219b1421846361d4a8124bf71e52f9e0, type: 3}
@@ -123,12 +119,6 @@ MonoBehaviour:
   lookDirection: {x: 1, y: 0}
   hitEffect: {fileID: 1170935968549319837}
   healthEffect: {fileID: 954102801226838031}
-=======
-  gearThrow: {fileID: 8300000, guid: b2edfd40873655249ba0e01a5cf705be, type: 3}
-  rubyHit: {fileID: 0}
-  hitEffect: {fileID: 1170935968549319837}
-  healthEffect: {fileID: 0}
->>>>>>> 1d8b9bcaba5d3bc6de60a56eb652b8fb9f0b1c8b
 --- !u!50 &7320891436396765141
 Rigidbody2D:
   serializedVersion: 4
@@ -414,33 +404,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-<<<<<<< HEAD
     - target: {fileID: 6081257182417717655, guid: b0d857ab5e43aae4cb123fd6c4b3d5a6, type: 3}
       propertyPath: lengthInSec
       value: 0.3
       objectReference: {fileID: 0}
-=======
->>>>>>> 1d8b9bcaba5d3bc6de60a56eb652b8fb9f0b1c8b
     - target: {fileID: 6118565310756680505, guid: b0d857ab5e43aae4cb123fd6c4b3d5a6, type: 3}
       propertyPath: m_Name
       value: vfx_RubyHeal
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b0d857ab5e43aae4cb123fd6c4b3d5a6, type: 3}
-<<<<<<< HEAD
 --- !u!198 &954102801226838031 stripped
 ParticleSystem:
   m_CorrespondingSourceObject: {fileID: 6081257182417717655, guid: b0d857ab5e43aae4cb123fd6c4b3d5a6, type: 3}
   m_PrefabInstance: {fileID: 6438265383808514456}
   m_PrefabAsset: {fileID: 0}
-=======
->>>>>>> 1d8b9bcaba5d3bc6de60a56eb652b8fb9f0b1c8b
 --- !u!4 &9093613663539166584 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2840171795443238112, guid: b0d857ab5e43aae4cb123fd6c4b3d5a6, type: 3}
   m_PrefabInstance: {fileID: 6438265383808514456}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
 --- !u!1001 &7360974941061904115
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -503,5 +486,3 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1409903839792864343, guid: ba0a4816585169a488738f1112444daf, type: 3}
   m_PrefabInstance: {fileID: 7360974941061904115}
   m_PrefabAsset: {fileID: 0}
-=======
->>>>>>> 1d8b9bcaba5d3bc6de60a56eb652b8fb9f0b1c8b

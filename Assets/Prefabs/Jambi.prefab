@@ -143,11 +143,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-<<<<<<< HEAD
   m_text: Hey! Can you swing your wrench to help out these robots?
-=======
-  m_text: Whoa, you gotta help out these robots, man!
->>>>>>> 1d8b9bcaba5d3bc6de60a56eb652b8fb9f0b1c8b
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -174,23 +170,14 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-<<<<<<< HEAD
   m_fontSize: 33
   m_fontSizeBase: 33
-=======
-  m_fontSize: 35.9
-  m_fontSizeBase: 35.9
->>>>>>> 1d8b9bcaba5d3bc6de60a56eb652b8fb9f0b1c8b
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-<<<<<<< HEAD
   m_HorizontalAlignment: 1
-=======
-  m_HorizontalAlignment: 8
->>>>>>> 1d8b9bcaba5d3bc6de60a56eb652b8fb9f0b1c8b
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0

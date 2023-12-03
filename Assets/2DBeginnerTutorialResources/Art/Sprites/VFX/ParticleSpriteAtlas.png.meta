@@ -388,7 +388,6 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-<<<<<<< HEAD
     - serializedVersion: 2
       name: ParticleSpriteAtlas_13
       rect:
@@ -431,8 +430,6 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-=======
->>>>>>> 1d8b9bcaba5d3bc6de60a56eb652b8fb9f0b1c8b
     outline: []
     physicsShape: []
     bones: []
@@ -445,19 +442,13 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       ParticleSpriteAtlas_8: -1109600174
-<<<<<<< HEAD
       ParticleSpriteAtlas_14: 486929456
-=======
->>>>>>> 1d8b9bcaba5d3bc6de60a56eb652b8fb9f0b1c8b
       ParticleSpriteAtlas_0: -932967591
       ParticleSpriteAtlas_4: -1910475164
       ParticleSpriteAtlas_3: -1343164383
       ParticleSpriteAtlas_5: -1246210971
       ParticleSpriteAtlas_9: 1434494110
-<<<<<<< HEAD
       ParticleSpriteAtlas_13: 506404346
-=======
->>>>>>> 1d8b9bcaba5d3bc6de60a56eb652b8fb9f0b1c8b
       ParticleSpriteAtlas_6: 706706562
       ParticleSpriteAtlas_12: -378645610
       ParticleSpriteAtlas_2: -2125413203
