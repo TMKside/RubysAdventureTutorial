@@ -17,6 +17,7 @@ public class EnemyController : MonoBehaviour
     Animator animator;
     bool broken = true;
     private RubyController rubyController;
+    // Smoke Particles and Cog attack made by Juliana
     public ParticleSystem smokeEffect;
     public ParticleSystem cogs;
 
@@ -117,6 +118,7 @@ public class EnemyController : MonoBehaviour
         rigidbody2D.simulated = false;
         smokeEffect.Stop();
         PlaySound(enemyHit);
+        // Enemy Hit sound added by Isaiah, sound is Hammer hit from Super Mario RPG (SNES)
 
         if (rubyController != null)
         {

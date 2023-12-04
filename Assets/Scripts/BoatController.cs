@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class BoatController : MonoBehaviour
 {
+    // Code and assets created by Isaiah
     public float speed;
     public bool vertical;
     public float changeTime = 15.0f;

@@ -96,6 +96,7 @@ public class RubyController : MonoBehaviour
                 {
                     character.DisplayDialog();
                     PlaySound(croak);
+                    // Sound added by Isaiah, sound is Frog Coin from Super Mario RPG (SNES)
                 }
             }
         }
@@ -170,6 +171,7 @@ public class RubyController : MonoBehaviour
     {
         animator.SetTrigger("Launch");
         PlaySound(Swanging);
+        // Sound added for Wrench Swing by Isaiah, sound is Enemy Throw from Super Mario RPG (SNES)
 
         //For the old gear throw
         /*GameObject projectileObject = Instantiate(projectilePrefab, rigidbody2d.position + Vector2.up * 0.5f, Quaternion.identity);

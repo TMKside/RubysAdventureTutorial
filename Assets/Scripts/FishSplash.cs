@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class FishSplash : MonoBehaviour
 {
+    // All code, visuals, and sounds were made by Juliana
     // Start is called before the first frame update
     AudioSource splashSource;
     public AudioClip splashClip;

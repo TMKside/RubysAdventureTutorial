@@ -8,7 +8,7 @@ public class RubyWrenchSwing : MonoBehaviour
     public SpriteRenderer spriteOn;
     public CapsuleCollider2D hitbox;
     
-
+    // Code Written by Isaiah, sprite made by Juliana
     // Update is called once per frame
     void Update()
     {

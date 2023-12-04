@@ -5,6 +5,7 @@ using UnityEngine;
 public class cogbomb : MonoBehaviour
 {
     // Start is called before the first frame update
+    // Cog attacks were coded by Juliana
     public ParticleSystem cogfx;
     private RubyController rubyController;
 
